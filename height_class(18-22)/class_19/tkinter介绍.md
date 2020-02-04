@@ -21,7 +21,7 @@ tkinter简单示例1
         '''
         root.mainloop() # 进入消息循环
 
-![avatar](D:\JetBrains\PythonDemo\TeachPython\img\class_19\class_19_img01.jpg)
+![avatar](../../img/class_19/class_19_img01.jpg)
 
 tkinter简单示例2
 
@@ -29,21 +29,21 @@ tkinter简单示例2
   
         root = tkinter.Tk() # 创建窗口对象
         
-        root.title("wuya") # 设置窗口标题
+        root.title("root") # 设置窗口标题
         root.geometry("300x200+10+20") # 设置窗口大小，用x连接表示窗口的宽和高，用+号表示为窗口的位置，位置原点以屏幕左上角为（0，0）
-        lb = tkinter.Label(wuya, text = 'hello world!') # 添加一个lable，内容显示为hello world！
+        lb = tkinter.Label(root, text = 'hello world!') # 添加一个lable，内容显示为hello world！
         lb.pack()
         
         root.mainloop() # 进入消息循环
-        
+![avatar](../../img/class_19/class_19_img02.jpg)     
 Lable控件的使用
 
         import tkinter
         
         root = tkinter.Tk()
-        root.title("wuya")
+        root.title("root")
         root.geometry("300x200+10+20")
-        lb = tkinter.Label(wuya,
+        lb = tkinter.Label(root,
                            text='这是Lable控件',
                            bg='red',
                            fg='green',
@@ -70,4 +70,4 @@ Lable控件的使用
         lb.pack()
         
         root.mainloop()
-
+![avatar](../../img/class_19/class_19_img03.jpg)
