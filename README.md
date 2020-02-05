@@ -28,4 +28,5 @@
     * [for与if实战](primary_class(1-9)/class_05/for循环与if语句的结合使用.md)
     * [turtle实战](middle_class(10-17)/class_11/turtle实战.md)
     * [pygame实战](middle_class(10-17)/class_12/pygame接小球游戏_01.md)
+    * [time实战](middle_class(10-17)/class_16/time实战.md)
     * [tkinter实战](height_class(18-22)/class_20/tkinter实战.md)
