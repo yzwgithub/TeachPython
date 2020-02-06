@@ -13,6 +13,7 @@
         - [列表](primary_class(1-9)/class_06/列表.md)
         - [元组](primary_class(1-9)/class_07/元组.md)
         - [字典](primary_class(1-9)/class_08/字典.md)
+    * 自定义函数
 2. python常用库学习
     * [turtle](primary_class(1-9)/class_02/turtle库函数基本使用.md)
     * [pygame](middle_class(10-17)/class_12/pygame简介.md)
