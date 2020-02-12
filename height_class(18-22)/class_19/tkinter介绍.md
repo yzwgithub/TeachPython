@@ -71,3 +71,5 @@ Lable控件的使用
         
         root.mainloop()
 ![avatar](../../img/class_19/class_19_img03.jpg)
+
+## [tkinter中文参考文档](https://www.runoob.com/python/python-gui-tkinter.html)

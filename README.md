@@ -20,6 +20,8 @@
     * [os](middle_class(10-17)/class_15/文件操作.md)
     * [time&calendar](middle_class(10-17)/class_16/时间和日期.md)
     * [tkinter](height_class(18-22)/class_19/tkinter介绍.md)
+    * [requests](height_class(18-22)/class_22/requests库.md)
+    * [bs4](height_class(18-22)/class_22/bs4库.md)
     
 3. 面向对象
     * [类的定义](height_class(18-22)/calss_18/面向对象.md)
@@ -31,3 +33,5 @@
     * [pygame实战](middle_class(10-17)/class_12/pygame接小球游戏_01.md)
     * [time实战](middle_class(10-17)/class_16/time实战.md)
     * [tkinter实战](height_class(18-22)/class_20/tkinter实战.md)
+    * [HTML实战](height_class(18-22)/class_21/class_21_02.html)
+    * [爬虫实战]()
