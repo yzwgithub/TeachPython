@@ -21,7 +21,7 @@ tkinter简单示例1
         '''
         root.mainloop() # 进入消息循环
 
-![avatar](../../img/class_19/class_19_img01.jpg)
+![avatar](img/class_19_img01.jpg)
 
 tkinter简单示例2
 
@@ -35,7 +35,7 @@ tkinter简单示例2
         lb.pack()
         
         root.mainloop() # 进入消息循环
-![avatar](../../img/class_19/class_19_img02.jpg)     
+![avatar](img/class_19_img02.jpg)     
 Lable控件的使用
 
         import tkinter
@@ -70,6 +70,6 @@ Lable控件的使用
         lb.pack()
         
         root.mainloop()
-![avatar](../../img/class_19/class_19_img03.jpg)
+![avatar](img/class_19_img03.jpg)
 
 ## [tkinter中文参考文档](https://www.runoob.com/python/python-gui-tkinter.html)
