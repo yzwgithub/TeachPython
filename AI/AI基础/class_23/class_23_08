@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+
+import numpy as np
+
+x = np.arange(0, 100)
+y = np.sin(x)
+
+x = [1, 2, 3, 4]
+y = [50, 70, 30, 60]
+
+x_1 = [1, 2, 3, 4]
+y_1 = [20, 80, 40, 100]
+plt.subplot()        # 子图
+# x = [1, 2, 3, 4]
+# y = [0.1, 0.5, 0.3, 0.1]
+# plt.plot(x, y)     # 绘制直线、曲线
+# plt.scatter(x, y)    # 散点图
+plt.bar(x, y)        # 柱状图
+# plt.pie(x, y)
+
+plt.show()
