@@ -19,7 +19,8 @@
         data.isnan()
         data.isnull()
 #### 1.2.4  对空值进行处理
-        data.fillna()    #对空值进行填充
+        data.fillna()               #对空值进行填充
+        data = data.dropna()        # 删除空值
 ### 1.3 索引和切片
 #### 1.3.1 索引
         ## 作用是获取指定的行或列
@@ -37,4 +38,16 @@
         data = data[data <= 100]              # 获取所有data<=100的值
 ### 2.3 计数
         data.value_counts()          # 统计每一个值出现的频率
-        
+
+## 3高级用法
+### 3.1 where的使用
+        data = data.where(data < 3, 4)       # 按照所给条件的反面进行替换
+        data = data.mask(data < 3, 4)        # 根据所给条件进行替换
+###3.2 apply的使用
+        # 它可以用lambda表达式对data中的每一个元素进行操作
+        data = data.apply(lambda x: x + 5 if x > 3 else x * 6)
+        data = data.apply(lambda x: x**2 if x < 3 else np.sqrt(x))
+### 3.3 多个Series和DataFrame的合并
+        # concat
+        data = pd.concat([data, data_01], axis=1)    # 按列合并
+        data = pd.concat([data, data_01], axis=0)    # 按行合并
