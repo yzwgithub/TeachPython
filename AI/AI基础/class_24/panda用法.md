@@ -51,3 +51,34 @@
         # concat
         data = pd.concat([data, data_01], axis=1)    # 按列合并
         data = pd.concat([data, data_01], axis=0)    # 按行合并
+### 3.4 groupby
+####3.4.1 agg的用法
+        # 求平均成绩
+        # class_num  , stu_id, score
+        import numpy as np
+        import pandas as pd
+        data = {'class_num': [1, 1, 1, 2, 2, 2, 3, 3, 3],
+                'stu_id': [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                'score': [80, 76, 54, 92, 86, 75, 83, 91, 46]}
+
+        data = pd.DataFrame(data)
+        # 分组
+        data_group = data.groupby('class_num').agg({'score': 'max'})
+        # 求平均值
+        # max, min, mean, sun
+        # data_mean = data_group.agg({'score': 'max'})
+        print(data_group)
+####3.4.2 transform的用法
+        # transform
+        import numpy as np
+
+        import pandas as pd
+        data = {'class_num': [1, 1, 1, 2, 2, 2, 3, 3, 3],
+                'stu_id': [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                'score': [80, 76, 54, 92, 86, 75, 83, 91, 46]}
+
+        data = pd.DataFrame(data)
+        # 分组
+        data_group = data.groupby('class_num')
+        data['mean'] = data_group['score'].transform('mean')
+        print(data)
